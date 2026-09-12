@@ -1,0 +1,167 @@
+[
+  {
+    "id": "C1",
+    "q": "What is the minimum attendance required to sit for exams if I was hospitalized?",
+    "expected_state": "CONTRADICTION"
+  },
+  {
+    "id": "C2",
+    "q": "Can a first-year student enter the hostel after 10 PM with a library pass?",
+    "expected_state": "CONTRADICTION"
+  },
+  {
+    "id": "C3",
+    "q": "Can the Dean waive my end-semester examination fee?",
+    "expected_state": "CONTRADICTION"
+  },
+  {
+    "id": "A1",
+    "q": "What is the fee for submitting a re-evaluation request?",
+    "expected_state": "ANSWER"
+  },
+  {
+    "id": "A2",
+    "q": "What is the maximum duration allowed to complete a B.Tech degree?",
+    "expected_state": "ANSWER"
+  },
+  {
+    "id": "A3",
+    "q": "What is the late registration fine per day after the first 5 days?",
+    "expected_state": "ANSWER"
+  },
+  {
+    "id": "A4",
+    "q": "What happens if my final year thesis has 20% plagiarism?",
+    "expected_state": "ANSWER"
+  },
+  {
+    "id": "A5",
+    "q": "What percentage refund do I get if I withdraw within 15 days of class commencement?",
+    "expected_state": "ANSWER"
+  },
+  {
+    "id": "R01",
+    "q": "Can I miss an exam because of my sister's wedding?",
+    "expected_state": "REFUSAL"
+  },
+  {
+    "id": "R02",
+    "q": "Is electric kettle permitted inside the hostel room?",
+    "expected_state": "REFUSAL"
+  },
+  {
+    "id": "R03",
+    "q": "What is the stipend provided for undergraduate teaching assistants?",
+    "expected_state": "REFUSAL"
+  },
+  {
+    "id": "R04",
+    "q": "How many days of paternity leave can a postgraduate scholar take?",
+    "expected_state": "REFUSAL"
+  },
+  {
+    "id": "R05",
+    "q": "Can I bring my pet dog to the campus grounds?",
+    "expected_state": "REFUSAL"
+  },
+  {
+    "id": "R06",
+    "q": "What is the policy for converting a minor degree into an honors degree?",
+    "expected_state": "REFUSAL"
+  },
+  {
+    "id": "R07",
+    "q": "Are students allowed to park four-wheeler cars in the campus parking lot?",
+    "expected_state": "REFUSAL"
+  },
+  {
+    "id": "R08",
+    "q": "Is there a grace period for returning library books during summer break?",
+    "expected_state": "REFUSAL"
+  },
+  {
+    "id": "R09",
+    "q": "How much fine is charged for losing the hostel smart card?",
+    "expected_state": "REFUSAL"
+  },
+  {
+    "id": "R10",
+    "q": "Can two students from different branches swap their elective courses?",
+    "expected_state": "REFUSAL"
+  },
+  {
+    "id": "R11",
+    "q": "What is the dress code required for the annual convocation ceremony?",
+    "expected_state": "REFUSAL"
+  },
+  {
+    "id": "R12",
+    "q": "Does the university provide medical health insurance coverage for dental treatments?",
+    "expected_state": "REFUSAL"
+  },
+  {
+    "id": "R13",
+    "q": "Are vegan meal options guaranteed during weekend dinners in the mess?",
+    "expected_state": "REFUSAL"
+  },
+  {
+    "id": "R14",
+    "q": "How many attempts are permitted for clearing the campus sports proficiency test?",
+    "expected_state": "REFUSAL"
+  },
+  {
+    "id": "R15",
+    "q": "Can an undergraduate student take a gap year to work at a venture-backed startup?",
+    "expected_state": "REFUSAL"
+  },
+  {
+    "id": "R16",
+    "q": "What is the procedure to book the campus indoor badminton court for late night?",
+    "expected_state": "REFUSAL"
+  },
+  {
+    "id": "R17",
+    "q": "Is there financial assistance available for publishing research papers in IEEE journals?",
+    "expected_state": "REFUSAL"
+  },
+  {
+    "id": "R18",
+    "q": "Can a student audit a course without registering on the academic portal?",
+    "expected_state": "REFUSAL"
+  },
+  {
+    "id": "R19",
+    "q": "What is the penalty for using loud speakers in the hostel common room after 8 PM?",
+    "expected_state": "REFUSAL"
+  },
+  {
+    "id": "R20",
+    "q": "Does the tuition fee include subscription to online cloud platforms like AWS?",
+    "expected_state": "REFUSAL"
+  },
+  {
+    "id": "R21",
+    "q": "What is the maximum number of times a student can change their hostel room?",
+    "expected_state": "REFUSAL"
+  },
+  {
+    "id": "R22",
+    "q": "Can alumni retain access to the university gym facilities after graduating?",
+    "expected_state": "REFUSAL"
+  },
+  {
+    "id": "R23",
+    "q": "Is there a fee reduction if a student completes the degree in 3.5 years?",
+    "expected_state": "REFUSAL"
+  },
+  {
+    "id": "R24",
+    "q": "What are the rules regarding cooking induction plates inside hostel rooms?",
+    "expected_state": "REFUSAL"
+  },
+  {
+    "id": "R25",
+    "q": "How many days in advance must a guest room in the visitor lodge be reserved?",
+    "expected_state": "REFUSAL"
+  }
+]
