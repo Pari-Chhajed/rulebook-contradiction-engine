@@ -284,12 +284,3 @@ OVERALL         ████████████████████ 33/
 
 ---
 
-## 📄 License
-
-Add your project license here, for example:
-
-```text
-MIT License
-```
-
-if the repository is intended to be released under the MIT License.
