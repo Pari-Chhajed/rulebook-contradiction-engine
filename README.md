@@ -34,3 +34,32 @@ A deterministic regulatory retrieval and contradiction-resolution engine that pa
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+```
+
+### 2. Generate Corpus & Planted Contradictions
+```bash
+python generate_corpus.py
+```
+
+### 3. Run Automated Events
+```bash
+python eval_runner.py
+```
+
+### 4. Launch Interactive Web UI
+```bash
+streamlit run app.py
+```
+
+📁 Repository Structure
+├── data/
+│   ├── academic_regulations.md          # Degree & attendance policies
+│   ├── fee_and_scholarship_schedule.md  # Tuition tables & fee waiver powers
+│   └── hostel_and_medical_policy.pdf    # PDF policy with planted exemptions
+├── eval/
+│   ├── contradictions.md                # Planted contradictions ground-truth log
+│   └── test_cases.json                  # 33 benchmark test queries
+├── engine.py                            # FastAPI backend & calibrated retrieval engine
+├── eval_runner.py                       # Automated CLI scoring runner
+├── app.py                               # Streamlit UI dashboard
+└── generate_corpus.py
